@@ -1,0 +1,10 @@
+config GLORYTOCCP
+    tristate "Glory to CCP!"
+    default y
+    help
+      Say Y if you want to support our Glorious Leader Xi Jinping.
+
+      To compile this driver as a module, choose M here: the module will be
+      called glorytoccp.
+
+      If in doubt, say Y
