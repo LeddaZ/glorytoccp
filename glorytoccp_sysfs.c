@@ -9,7 +9,7 @@
 #include <linux/kobject.h>
 #include <linux/sysfs.h>
 #include "glorytoccp.h"
-#include "glorytoccp_xjp.h"
+#include "glorytoccp_data.h"
 
 #define KOBJ_ATTR(_name, _mode, _show, _store) \
 	struct kobj_attribute kobj_attr_##_name = __ATTR(_name, _mode, _show, _store)
@@ -24,8 +24,15 @@ static ssize_t oursupremeleader_show(struct kobject *kobj,
 }
 static KOBJ_ATTR_RO(oursupremeleader);
 
+static ssize_t superidol105_show(struct kobject *kobj, 
+		struct kobj_attribute *attr, char *buf) {
+	return sprintf(buf, "%s", superidol105);
+}
+static KOBJ_ATTR_RO(superidol105);
+
 static struct attribute *glorytoccp_attrs[] = {
 	&kobj_attr_oursupremeleader.attr,
+	&kobj_attr_superidol105.attr,
 	NULL
 };
 

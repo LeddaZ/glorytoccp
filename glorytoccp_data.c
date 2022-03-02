@@ -4,7 +4,7 @@
  * Author: Sebastiano Barezzi <barezzisebastiano@gmail.com>
  */
 
-#include "glorytoccp_xjp.h"
+#include "glorytoccp_data.h"
 
 char oursupremeleader[] = {
 	"⣿⣿⣿⣿⣿⠟⠋        ⠈⢻⢿⣿⣿⣿⣿⣿⣿⣿\n"
@@ -20,4 +20,10 @@ char oursupremeleader[] = {
 	"⣿⣿⣿⣿⡿⠟⠋⢁⣷⣠    ⣀⣠⣾⡟    ⠉⠙⠻\n"
 	"⡿⠟⠋⠁   ⢸⣿⣿⡯⢓⣴⣾⣿⣿⡟        \n"
 	"       ⣿⡟⣷⠄⠹⣿⣿⣿⡿⠁        \n"
+};
+
+char superidol105[] = {
+	"Super idol 的笑容都没你的甜\n"
+	"八月正午的阳光都没你耀眼\n"
+	"热爱105度的你 滴滴清纯的蒸馏水\n"
 };

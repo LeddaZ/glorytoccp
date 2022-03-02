@@ -9,7 +9,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
-#include "glorytoccp_xjp.h"
+#include "glorytoccp_data.h"
 #ifdef CONFIG_SYSFS
 #include "glorytoccp_sysfs.h"
 #endif
