@@ -22,17 +22,25 @@ static ssize_t oursupremeleader_show(struct kobject *kobj,
 		struct kobj_attribute *attr, char *buf) {
 	return sprintf(buf, "%s", oursupremeleader);
 }
-static KOBJ_ATTR_RO(oursupremeleader);
 
 static ssize_t superidol105_show(struct kobject *kobj, 
 		struct kobj_attribute *attr, char *buf) {
 	return sprintf(buf, "%s", superidol105);
 }
+
+static ssize_t xuehuapiaopiao_show(struct kobject *kobj, 
+		struct kobj_attribute *attr, char *buf) {
+	return sprintf(buf, "%s", xuehuapiaopiao);
+}
+
+static KOBJ_ATTR_RO(oursupremeleader);
 static KOBJ_ATTR_RO(superidol105);
+static KOBJ_ATTR_RO(xuehuapiaopiao);
 
 static struct attribute *glorytoccp_attrs[] = {
 	&kobj_attr_oursupremeleader.attr,
 	&kobj_attr_superidol105.attr,
+	&kobj_attr_xuehuapiaopiao.attr,
 	NULL
 };
 
