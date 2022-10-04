@@ -36,3 +36,9 @@ char xuehuapiaopiao[] = {
 	"Ài wǒ suǒ ài wú yuàn wú huǐ\n"
 	"Cǐ qíng cháng liú xīn jiān\n"
 };
+
+char xoxol[] = {
+	"By using this Linux kernel, you\n"
+	"automatically agree to support\n"
+	"Ukraine and destroy Putler!\n"
+};
